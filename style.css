@@ -7,8 +7,18 @@ body {
 	border-radius:5px;
 	margin: 10px auto;
 	}
+ul {
+	list-style-image: url("ul.png");
+	list-style-type:none;
+	}
 	#toggleMenu {display:none; color: white;} 
-	.image {max-width: 999px; min-width:640px;}
+	.image {
+		display: block;
+		position: relative;
+		width: 98%;
+		margin: 0 1%;
+		border: 1px solid darkblue;
+	}
 	#sidebar1, #sidebar2  {
 	width:320px;
 	padding:10px 5px 5px 10px;
@@ -41,13 +51,7 @@ body {
 		width: 680px;
 		background-color:#fdfdfd;
 		float:left;
-	}
-	#sidebar1, #sidebar2  {
-	width:320px;
-	padding:10px 5px 5px 10px;
-	float:left;
-	} 
-	
+	}	
 }
 
 @media screen and (min-width: 701px) and (max-width: 1039px){
@@ -80,12 +84,12 @@ body {
 	background-color:#fdfdfd;
 	float:left;
 	}
-
 }
 
 @media screen and (max-width: 700px) {
 	body {	
 	padding:3px;
+	margin:0px;
 	}
 	
 	#logo {
@@ -132,8 +136,15 @@ body {
 	}
 	.image {
 		display:block;
-		min-width:290px;
-		width: 290px; 
-		border: 3px solid darkblue;
+		min-width:270px;
+		max-width: 95%; 
+		border: 1px solid darkblue;
+		position:relative;
+		margin: 0 auto;
 	}
+	#sidebar1, #sidebar2  {
+		width:320px;
+		padding:3px;
+		float:none;
+	} 
 }
