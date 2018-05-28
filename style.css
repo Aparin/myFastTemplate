@@ -1,0 +1,138 @@
+body {
+	max-width:1360px;
+	background:linear-gradient(#aeb9b5, #ffffff);	
+	font-family:Georgia;
+	padding:5px;
+	border: 2px solid lightgrey;
+	border-radius:5px;
+	margin: 10px auto;
+	}
+	#toggleMenu {display:none; color: white;} 
+	.image {max-width: 999px; min-width:640px;}
+	#sidebar1, #sidebar2  {
+	width:320px;
+	padding:10px 5px 5px 10px;
+	float:left;
+	}  
+	#footer {background: slateblue; color: white;  padding: 10px 10px;	}
+	
+@media screen and (min-width: 1040px) {
+	#logo {
+		width: 40%;
+		height: 100px;
+		float:left;	
+		background-color:#deecf7;
+		font-size:28px;
+	}
+	#header {
+		width: 60%;
+		height: 100px;
+		float:left;
+		background-color:#deecf7;
+	}
+	
+	#menu {display:block; background:khaki; font-weight: 700;}
+	#menu p {display:inline; background: slateblue; color: white;  padding: 3px 3px;}
+	#menu a:hover { color: yellow;}
+	#menu a {text-decoration:none; color: white;}
+	
+	#content {
+		padding: 5px;
+		width: 680px;
+		background-color:#fdfdfd;
+		float:left;
+	}
+	#sidebar1, #sidebar2  {
+	width:320px;
+	padding:10px 5px 5px 10px;
+	float:left;
+	} 
+	
+}
+
+@media screen and (min-width: 701px) and (max-width: 1039px){
+
+	#logo {
+		width: 38%;
+		height: 100px;
+		float:left;	
+		background-color:#deecf7;
+		font-size:28px;
+		padding: 0% 1%;
+	}
+	#header {
+		width: 58%;
+		height: 100px;
+		float:left;
+		background-color:#deecf7;
+		padding: 0% 1%;
+	}
+	
+	#menu {display:block; background:khaki; font-weight: 700; width: 100%;}
+	#menu p {display:inline; background: slateblue; color: white; padding: 3px 3px;}
+	#menu p {display:inline; background: slateblue; color: white; padding: 3px 3px;}
+	#menu a:hover { color: yellow;}
+	#menu a {text-decoration:none; color: white;}
+	
+	#content {
+	padding: 0% 1%;
+	width: 98%;
+	background-color:#fdfdfd;
+	float:left;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	body {	
+	padding:3px;
+	}
+	
+	#logo {
+	height: 100px;
+	padding:3px 3px 0px 3px;
+	background-color:#deecf7;
+	background-repeat: no-repeat;
+	min-width: 290px;
+	font-size:28px;
+	}
+	#header {
+	height: 100px;
+	padding:3px 3px 0px 3px;
+	background-color:#deecf7;
+	min-width: 290px;
+	}
+
+	#toggleMenu {
+		font-size: 28px;	
+		text-align:center;	
+		display:block;		
+		background-color:slateblue;	
+		color:khaki;
+	}
+	
+	#menu {
+		font-size: 22px;
+		border: 1px blue solid;
+		background: lightblue;
+		opacity: 0.9;
+		color: white;
+		padding-left: 10px;
+		display:none;
+	}
+
+	#menu {background:slateblue; font-weight: 700;}
+	#menu p {display:background: slateblue; color: white; margin: 0px 3px; padding: 3px 3px; text-transform:lowercase;}
+	#menu a:hover { color: khaki;}
+	#menu a {text-decoration:none; color: white;}
+	
+	#content {
+		padding: 3px;
+		background-color:#fdfdfd;
+	}
+	.image {
+		width: 100px; 
+ 		height: 200px;
+		border: 3px solid darkblue;
+	}
+}
