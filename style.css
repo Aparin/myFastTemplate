@@ -1,16 +1,22 @@
 body {
 	max-width:1360px;
-	background:linear-gradient(#aeb9b5, #ffffff);	
+	background:linear-gradient(#aeb9b5, #ffffff);
+	/*background:linear-gradient(#aeb9b5, #ffffff);
+	background-color: #f2f2f2;	*/
 	font-family:Georgia;
 	padding:5px;
 	border: 2px solid lightgrey;
 	border-radius:5px;
 	margin: 10px auto;
 	}
-ul {
-	list-style-image: url("ul.png");
-	list-style-type:none;
-	}
+	
+	li {
+		list-style-type:none;
+		background: url("wul.png") no-repeat left;
+		padding-left: 20px;
+
+	}	
+	
 	#toggleMenu {display:none; color: white;} 
 	.image {
 		display: block;
@@ -23,6 +29,7 @@ ul {
 	width:320px;
 	padding:10px 5px 5px 10px;
 	float:left;
+
 	}  
 	#footer {background: slateblue; color: white;  padding: 10px 10px;	}
 	
